@@ -1,0 +1,38 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#main {
+	position:absolute;
+	width: 1024px;
+	height: 694px;
+}
+
+#entete {
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 78px;
+	width: 1012px;
+	border-style:solid;
+	border-width:thin;
+}
+
+#menu {
+	float:left;
+	margin-left:5px;
+	margin-top: 5px;
+	height: 604px;
+	width: 198px;
+	border-style:solid;
+	border-width:thin;
+}
+
+#contenu {
+	margin-left:210px;
+	margin-top: 5px;
+	width: 807px;
+	height: 604px;
+	border-style:solid;
+	border-width:thin;
+}
