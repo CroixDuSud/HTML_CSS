@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+05_TP_HTML_ImgCliquable
+Utilisation d'une MAP
+Didier Bonneau CDI Afpa Créteil
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Les images réactive</title>
+    </head>
+    <body>
+        <h1 align="center">Création d'une image réactive</h1>
+        <hr width="75%" /> 
+        <br />
+        <img src="carte-mere-gigabyte-atom.jpg" alt="Carte m&egrave;re de PC" usemap="#carte"/>
+        <map name="carte">
+            <area shape="rect" coords="709,100,756,756" href="memoire.html" alt="slot m&eacute;moire" />
+            <area shape="rect" coords="576,633,624,809" href="disque-dur.html" alt="connecteur sata" />
+            <area shape="rect" coords="407,305,632,526" href="processeur.html" alt="processeur" />
+            <area shape="circle" coords="206,471,49" href="pile.html" alt="pile" />
+        </map>
+    </body>
+</html>
+

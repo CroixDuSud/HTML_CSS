@@ -1,0 +1,23 @@
+﻿<!doctype html>
+<!--
+<form input type range> Saisie d'un numérique par curseur avec
+ une valeur minimum et une valeur maximale.
+attributs :
+- value : la valeur de cette donnée.
+- min : le minimum possible.
+- max : le maximum possible.
+- step : pas d'incrément.
+-->
+<html lang="fr"> 
+	<head> 
+		<title>Html5 Form Input-Range</title> 
+		<meta charset="UTF-8">
+	</head> 
+	<body> 
+		<h3>Réglage de température</h3>
+		<form action="#">
+			<label for="idTemp">Température choisie : </label>
+			<input type="range" id="idTemp" name="temp" min="10" max="30" step="2" value="16">
+		</form>
+	</body> 
+</html>

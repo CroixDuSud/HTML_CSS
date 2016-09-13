@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+23_TP_CSS_Synthese
+Utilisation du CSS
+Didier Bonneau CDI Afpa Créteil
+-->
+<html>
+    <head>
+        <title>Petit site complet</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="main">
+            <div id="entete">
+	   	<a href="#"><img src="images/salade.gif" alt="Accueil">Accueil</a>
+                <h1>Bienvenu chez e-legumes.com</h1>
+                <hr>
+            </div>
+            <div id="menu">
+                <ul>
+		   <li><a href="societe.html">Notre Société</a></li>
+		   <li><a href="#">Nos Promotions</a></li>
+		   <li><a href="produit.html">Nos Produits</a></li>
+		   <li><a href="contact.html">Nous contacter</a></li>
+                </ul>
+            </div>
+            <!-- partie non constante : div contenu à modifier -->
+            <div id="contenu">
+                <img src="images/promotions.gif" alt="Nos promotions">
+
+                <p><span class="lettrine">C</span>ette semaine, nous avons le grand plaisir de vous proposer les promotions
+                suivantes. Profitez de l'occasion qui vous est ainsi offerte de bénéficier de remises importantes sur des arrivages
+                spéciaux !</p>
+
+                <ul>
+                    <li>Un grand arrivage de <b class="important">citrouilles</b> peureuses en provenance des Etats-Unis</li>
+                    <li>Une offre exceptionnelle de <b class="important">céleri-rave</b>, d'un DJ-producteur d'Asie du Sud-Est</li>
+                    <li>De grandes <b class="important">asperges</b> bien arrosées</li>
+                    <li>De notre correspondant américain Bugs Bunny, une vingtaine de caisses de splendides <b class="important">carottes</b></li>
+                </ul>
+
+                <p><span class="lettrine">V</span>euillez <a href="contact.html">prendre contact</a> avec notre service clientèle
+                pour de plus amples informations.</p>
+
+            </div>
+            <div id="pied">
+                <hr>
+                <p><a href="#">Retour à l'accueil du site</a>.</p>
+            </div>
+        </div>
+    </body>
+</html>

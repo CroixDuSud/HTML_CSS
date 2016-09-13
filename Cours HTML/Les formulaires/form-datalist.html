@@ -1,0 +1,26 @@
+﻿<!doctype html>
+<!--
+liste de suggestion
+<datalist> contient une liste de balises <option> corespondant aux suggestions possibles.
+Ces balises <option> doivent toujours posséder un attribut value.
+<datalist> est reliée à un champ de formulaire par un identifiant id qui renvoie à
+l’attribut list de celui-ci, ici la ligne de texte.
+-->
+<html lang="fr"> 
+	<head> 
+		<title>Html5 form-datalist</title> 
+		<meta charset="UTF-8">
+	</head> 
+	<body> 
+		<form action="#">
+			<label for="saisieFruit">Choisir un fruit :</label>
+				<input id="saisieFruit" type="text" list="fruits">
+				<datalist id="fruits">
+					<option value="Orange">Orange</option>
+					<option value="Pomme">Pomme</option>
+					<option value="Poire">Poire</option>
+					<option value="Prune">Prune</option>
+				</datalist>
+		</form>
+	</body> 
+</html>

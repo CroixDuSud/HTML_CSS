@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html lang="fr"> 
+	<head> 
+		<title>Le positionnement 06</title> 
+		<meta charset="UTF-8">
+		<meta name="author" content="Didier Bonneau">
+		<meta name="date" content="janvier 2016">
+		<style>
+			#conteneur {width:900px; margin: 0 auto;}
+			#menu {float: left; width: 200px; }
+			#contenu {margin-left: 200px; height:500px;}
+			#wrap {overflow: hidden;}
+			
+            #entete {background-color: #99ccff;}
+            #menu {background-color: #33ffff;}
+            #contenu {background-color: #99ffff;}
+            #pied {background-color: #ff66ff;}
+			/*#contenu div {display: table-cell;}
+			#contenu div:nth-child(2) {width: 500px;}*/
+			div {border: solid 1px;}
+			h1, h2 {text-align: center;}
+		</style>
+	</head> 
+	<body>
+		<div id="conteneur">
+			<div id="entete"">
+				<h1>Le menu et le contenu sont dans un conteneur <br/>
+				dont la propriété overflow est hidden</h1>
+				<h2>Hauteur du menu > hauteur contenu</h2>
+			</div>
+			<div id="wrap">
+			<div id="menu">
+				<ul>
+					<li><a href="">Accueil</a></li>
+					<li><a href="">Item 1</a></li>
+					<li><a href="">Item 2</a></li>
+					<li><a href="">Item 3</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			<div id="contenu">
+				<h1>Sujet de la page</h1>
+				<div>
+					<h2>Sujet de l'article</h2>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed
+					non risus. Suspendisse lectus tortor, dignissim sit amet,
+					adipiscing nec, ultricies sed, dolor. Cras elementum ultrices
+					diam.Lorem ipsum dolor sit amet, consectetuer adipiscing
+					elit...</p>
+				</div>
+				<div>
+					<h3>Archives</h3>
+					<ul>
+						<li><a href="">Août 201x</a></li>
+						<li><a href="">Juillet 201x</a></li>
+						<li><a href="">Juin 201x</a></li>
+						<li><a href="">Mai 201x</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+			<div id="pied">
+				<h3>&copy; Copyright CDI Afpa Créteil 2016</h3>
+			</div>
+		</div>
+	</body> 
+</html>

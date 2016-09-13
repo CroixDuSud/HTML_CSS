@@ -1,0 +1,10 @@
+/* 
+20_TP_CSS_Style_Corect_1.css
+Feuille de style du TP 20_TP_CSS_Style_Base.html
+Didier Bonneau CDI Afpa Créteil
+*/
+h1 {
+    text-align:center;
+    color: green;
+}
+
